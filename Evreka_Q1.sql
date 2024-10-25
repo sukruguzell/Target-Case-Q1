@@ -35,7 +35,7 @@ filtered_distance AS (
             ELSE distance_travelled 
         END AS valid_distance_travelled,
         prev_time,
-        time_diff_sec
+        time_diff_sec   
     FROM distance_diff
 ),
 zero_streaks AS (
@@ -48,7 +48,6 @@ zero_streaks AS (
     FROM filtered_distance
 ),
 adjusted_times AS (
-    -- Identify the first change after a 10-hour (36000 seconds) streak of zeros
     SELECT
         route_id,
         MIN(CASE WHEN zero_duration >= 36000 AND valid_distance_travelled > 0 THEN recorded_at ELSE NULL END) AS adjusted_start_time
