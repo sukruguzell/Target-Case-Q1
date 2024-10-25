@@ -10,8 +10,8 @@ This repository was prepared for **Target Case 1**. Below are the contents and t
   - pandas 2.2.3  
   - matplotlib 3.9.2  
 
-- **SQL Solution: [Q2.sql](Q2.sql)**  
+- **SQL Solution: [Q2.sql]
   The SQL code in this file was written using **Google BigQuery**. Click the file link to view the SQL code, or access it directly on Google BigQuery.
 
-- **Insights and Solutions: [Target Case 1 - Solutions.pdf](Target%20Case%201%20-%20Solutions.pdf)**  
+- **Insights and Solutions: [Target Case 1 - Solutions.pdf] 
   This PDF provides a detailed **analysis of the problems**, insights gained from the data, and **explanations** of the SQL solution. For an in-depth understanding of the problem and proposed solution, please refer to this document.
